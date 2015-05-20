@@ -76,10 +76,40 @@ nav ul li a
     margin-right: 0.5em;
 }
 
-.searchfield{
+.searchfield, .classbutton{
     padding: 0.5em;
     font-size: 0.8em;
-    border: 1px solid #ccc;
+    border: 1px solid #E6007E;
+}
+
+.searchfield::-webkit-input-placeholder { /* WebKit browsers */
+    color:    #E6007E;
+}
+.searchfield:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+   color:    #E6007E;
+   opacity:  1;
+}
+.searchfield::-moz-placeholder { /* Mozilla Firefox 19+ */
+   color:    #E6007E;
+   opacity:  1;
+}
+.searchfield:-ms-input-placeholder { /* Internet Explorer 10+ */
+   color:    #E6007E;
+}
+
+.classbutton{
+    background-color: #fff;
+    transition: 0.4s;
+    border: 1px solid #E6007E;
+    color: #E6007E;
+}
+
+.classbutton:hover{
+    cursor: pointer;
+/*    background-color: #000;*/
+    color: #fff;
+    background-color: #E6007E;
+    transition: 0.4s;
 }
 
 .searchbutton{
@@ -91,27 +121,71 @@ nav ul li a
     margin-right: 5%;
 }
 
+.searchbutton circle, .searchbutton line{
+    fill: none;
+    stroke: #000;
+    stroke-width: 3;
+    transition: 0.4s;
+}
+
+.searchbutton:hover circle, .searchbutton:hover line{
+    stroke: red;
+    transition: 0.4s;
+}
+
+.gallery{
+    overflow: hidden;
+    padding-bottom: 5em;
+}
+
 .galleryitem
 {
 	width: 26.66%;
-	background-color: #2b2b2b;
+/*	background-color: #2b2b2b;*/
 	margin-top: 3em;
 	margin-left: 5%;
 	float: left;
 }
 
-.galleryitem img 
+.description{
+    height: 2em;
+    padding: 0 5%;
+    background-color: red;
+}
+
+.description h1
+{
+	line-height: 2em;
+	text-align: center;
+	color: #fff;
+    display: inline-block;
+}
+
+.portfoliothumb
 {
 	width: 100%;
 }
 
-.galleryitem h1
-{
-	height: 2em;
-	line-height: 2em;
-	text-align: center;
-	color: white;
+.hearticon{
+    float: right;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    height: 1.5em;
 }
+
+.hearticon path{
+    fill: none;
+    stroke: #000;
+    stroke-width: 3;
+    transition: 0.4s;
+}
+
+.hearticon:hover path{
+    stroke: red;
+    transition: 0.4s;
+}
+
 
 
 
