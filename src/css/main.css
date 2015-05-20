@@ -77,7 +77,7 @@ nav ul li a
     margin-right: 0.5em;
 }
 
-<<<<<<< HEAD
+/* <<<<<<< HEAD */
 .searchfield, .classbutton{
     padding: 0.5em;
     font-size: 0.8em;
@@ -112,7 +112,8 @@ nav ul li a
     color: #fff;
     background-color: #E6007E;
     transition: 0.4s;
-=======
+
+/*=======
 input[type='text'] {
 	padding: 1em 2.5em 1em 1em;
 }
@@ -122,7 +123,7 @@ input[type='text'] {
     font-size: 0.75em;
     border: 1px solid #ccc;
 >>>>>>> origin/master
-}
+} */
 
 .searchbutton{
     height: 40%;
@@ -134,7 +135,7 @@ input[type='text'] {
     margin-left: 0.5%;
 }
 
-<<<<<<< HEAD
+
 .searchbutton circle, .searchbutton line{
     fill: none;
     stroke: #000;
@@ -152,7 +153,7 @@ input[type='text'] {
     padding-bottom: 5em;
 }
 
-=======
+
 .uploadbutton{
     padding: 1em 2.5em 1em 2.5em;
     text-decoration: none;
@@ -191,19 +192,14 @@ input[type='text'] {
 
 .description h1
 {
-<<<<<<< HEAD
-	line-height: 2em;
-	text-align: center;
-	color: #fff;
-    display: inline-block;
-=======
+
 	height: 2em;
 	line-height: 1.8750em;
 	/*text-align: center;*/
 	margin-left: 3%;
 	color: white;
 	font-size: 1em; 
->>>>>>> origin/master
+
 }
 
 .portfoliothumb
