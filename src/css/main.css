@@ -78,39 +78,42 @@ nav ul li a
 }
 
 .searchfield, .classbutton{
-    padding: 0.5em;
-    font-size: 0.8em;
-    border: 1px solid #E6007E;
+    padding: 1em 1.5em;
+    font-size: 0.75em;
+    border: 1px solid #FF00FF;
+
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-weight: 300; 
 }
 
     .searchfield::-webkit-input-placeholder { /* WebKit browsers */
-        color:    #E6007E;
+        color:    #FF00FF;
     }
 
     .searchfield:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
-       color:    #E6007E;
+       color:    #FF00FF;
         opacity:  1;
     }
     .searchfield::-moz-placeholder { /* Mozilla Firefox 19+ */
-       color:    #E6007E;
+       color:    #FF00FF;
        opacity:  1;
     }
     .searchfield:-ms-input-placeholder { /* Internet Explorer 10+ */
-       color:    #E6007E;
+       color:    #FF00FF;
     }
 
 .classbutton {
     background-color: #fff;
     transition: 0.4s;
-    border: 1px solid #E6007E;
-    color: #E6007E;
+    border: 1px solid #FF00FF; /* E6007E */
+    color: #FF00FF;
 }
 
 .classbutton:hover {
     cursor: pointer;
     /*    background-color: #000;*/
     color: #fff;
-    background-color: #E6007E;
+    background-color: #FF00FF;
     transition: 0.4s;
 }
 
@@ -136,7 +139,7 @@ nav ul li a
     transition: 0.4s;
 }
 
-.uploadbutton{
+.uploadbutton {
     padding: 1em 2.5em 1em 2.5em;
     text-decoration: none;
     margin-left: 5%;
@@ -144,10 +147,9 @@ nav ul li a
     font-size: 0.75em;
     transition: 0.4s;
     border: 1px solid #FF00FF;
-    font-weight: 700;
 }
 
-.uploadbutton:hover{
+.uploadbutton:hover {
     background-color: #FF00FF;
     color: #fff;
     transition: 0.4s;
