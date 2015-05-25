@@ -1,6 +1,6 @@
 <nav>
     <h1>
-        <a href="index.php" class="logo">Het Buro</a>
+        <a href="index.php" class="logo">het<br/> Buro</a>
     </h1>
     
     <ul>
