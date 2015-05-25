@@ -1,7 +1,10 @@
 <?php
     include "header.html";
+    $thisPage="index";
+    include "navigation.php";
 ?>
 
+<body>
         <section class="search">
             <a href="#" class="uploadbutton">Upload Portfolio</a>
 
