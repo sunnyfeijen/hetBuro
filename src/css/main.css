@@ -8,10 +8,22 @@ body
     font-weight: 300;
 }
 
+p {
+    font-size: 0.875em;
+}
+
 @font-face {
     font-family: Avenir Next;
     src: url(css/Avenir Next.ttc);
 }
+
+::selection {
+  background: #E6007E; /* WebKit/Blink Browsers */
+}
+    
+    ::-moz-selection {
+      background: #E6007E; /* Gecko Browsers */
+    }
 
 /* Navigatie
 ---------------------------------------------------------*/
@@ -26,28 +38,28 @@ nav
 nav h1
 {
     float: left;
-  margin-left: 5%;
-  color: #fff;
-  font-size: 1.5em;
-  margin-top: 0.28em;
-  line-height: 20px;
+    margin-left: 5%;
+    color: #fff;
+    font-size: 1.5em;
+    margin-top: 0.28em;
+    line-height: 20px;
 }
 
-.logo{
-      text-decoration: none;
-      color: #fff;
-      font-family: 'Avenir Next', sans-serif;
-      font-weight: 300;
+.logo {
+    text-decoration: none;
+    color: #fff;
+    font-family: 'Avenir Next', sans-serif;
+    font-weight: 300;
 }
 
 nav ul
 {
     margin-top: 1.9em;
-  list-style: none;
-  font-size: 0.8em;
-  float: right;
-  text-transform: uppercase;
-  margin-right: 5%;
+    list-style: none;
+    font-size: 0.8em;
+    float: right;
+    text-transform: uppercase;
+    margin-right: 5%;
 }
 
 nav ul li 
@@ -106,7 +118,7 @@ nav ul li a
     }
 
 
-input[type="text"]:hover{
+.searchbar input[type="text"]:hover{
     border: 1px solid #000;
     transition: 0.4s;
 }
@@ -182,7 +194,7 @@ input[type="text"]:hover{
     transition: 0.4s;
 }
 
-input[type="text"]:focus{   
+.searchbar input[type="text"]:focus{   
     border-color: #000;
     outline: 0 none;
 }
@@ -291,3 +303,134 @@ input[type="text"]:focus{
 .about_description p:nth-child(odd){
     margin-left: 0;
 }
+
+
+/* Contact
+---------------------------------------------------------*/
+.contact {
+    width:720px;
+    margin: auto;
+    margin-top: 4em; 
+    overflow: auto;
+}
+
+.contact_informatie {
+    width: 40%;
+    float: left;
+}
+
+    .contact_informatie h1 {
+        font-size: 0.875em;
+        font-weight: 700;
+    }
+
+    .contact_informatie p {
+        font-size: 0.875em;
+    }
+
+/* Contactformulier
+---------------------------------------------------------*/
+.contact_formulier {
+    width: 60%;
+    float: left;
+}
+
+    .contact_formulier form {
+        width: 100%;
+    }
+
+    .contact_formulier label {
+        font-size: 0.875em;
+    }
+
+    .contact_formulier input {
+        font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+        font-weight: 300;
+
+        font-size: 0.875em;
+        width: 90%;
+        background:#fff;
+
+        border: 1px solid #000;
+        height:20px;
+        margin-bottom:15px;
+        width: 80%;
+
+        margin-top: 5px;
+        padding: 10px 15px 10px 15px;
+        background-color: white; 
+        color: #000;
+
+    }
+
+        .contact_formulier input[type="text"]:focus, input[type="email"]:focus, input[type="tel"]:focus, textarea:focus{   
+            outline: 0 none;
+        }
+
+    .contact_formulier textarea {
+        font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+        font-weight: 300;
+        padding: 10px 15px 10px 15px;
+        font-size: 0.875em;
+        width: 90%;
+        background:#fff;
+        border: 1px solid #000;
+        height:20px;
+        margin-bottom:15px;
+        width: 80%;
+        height: 100px;
+        margin-top: 5px;
+        background-color: white; 
+        resize: none;
+    }
+
+
+    .contact_formulier input[type="submit"] {
+        width:180px;
+        width: 40%;
+        height: 4em;
+        color: #E6007E;
+        border: 1px solid #E6007E;
+
+    }
+
+        .contact_formulier input[type="submit"]:hover {
+            background-color: #E6007E;
+            color: #fff;
+            transition: 0.4s;
+            cursor: pointer;
+        }
+
+    #req-field-desc {
+        font-size: 0.75em;
+        font-style: italic;
+        color: #E6007E;
+    }
+
+        .required {
+            color: #E6007E;
+        }
+        
+        .mail_check {
+            color: #E6007E;
+            margin-bottom: 5%;
+        }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
