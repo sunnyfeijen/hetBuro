@@ -257,5 +257,15 @@ input[type="text"]:focus{
     transform: translateY(-50%);
 }
 
+/* Over het Buro & het Event
+---------------------------------------------------------*/
 
-
+.about_description{
+    width:720px;
+    margin: auto;
+    margin-top: 2em;
+}
+.about_description h2{
+    font-weight: 800;
+    font-size: 1.5em;
+}
