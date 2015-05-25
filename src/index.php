@@ -1,36 +1,6 @@
-<!DOCTYPE html>
-<html>
-    <head>
-        
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-        <title>Het Buro</title>
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width">
-
-        <!-- Stylesheets -->
-        <link rel="stylesheet" href="css/reset.css">
-        <link rel="stylesheet" href="css/main.css">
-        
-                <!-- jQuery -->
-        <script src="js/lib/jquery-1.11.3.min.js"></script>
-
-        <!-- js/ .js -->
-        <script src="js/main.js"></script>
-        <script src="js/jscroll-master/jquery.jscroll.min.js"></script>
-
-    </head>
-    <body>
-
-        <nav>
-            <h1><a href="#" class="logo">Het Buro</a></h1>
-            <ul>
-                <li><a href="index.html" class="current">Portfolio's</a></li>
-                <li><a href="over.html">Over het Buro</a></li>
-                <li><a href="event.html">Het event</a></li>
-                <li><a href="contact.html">Contact</a></li>
-            </ul>
-        </nav>
+<?php
+    include "header.html";
+?>
 
         <section class="search">
             <a href="#" class="uploadbutton">Upload Portfolio</a>
