@@ -21,11 +21,20 @@
             </a>
             
             <form class="searchbar">
-                <input type="submit" name="m41" value="M41" class="classbutton">
-                <input type="submit" name="m42" value="M42" class="classbutton">
-                <input type="submit" name="m43" value="M43" class="classbutton">
+                <input type="submit" name="class" value="M41" class="classbutton">
+                <input type="submit" name="class" value="M42" class="classbutton active">
+                <input type="submit" name="class" value="M43" class="classbutton">
                 <input type="text" name="search" class="searchfield" placeholder="search here">
             </form>
+        </section>
+    
+        <section class="memberarea">
+            
+            <div class="trianglewrapper">
+                <div class="triangle">
+                </div>
+            </div>
+        
         </section>
         
         <section class="gallery">
