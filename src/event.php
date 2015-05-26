@@ -15,7 +15,7 @@
                 Dit doen ze d.m.v. een A2 poster en een computerscherm. 
    			</p>
 
-   			<p>
+   			<p class="secondalinea">
                 Het event zal plaats vinden op 22 juni 2015 van 13:00. De locatie is de eno zaal in het TAC, te Eindhoven.
    			</p>
 
