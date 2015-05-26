@@ -20,8 +20,8 @@
 					    $telephone = $_POST["telephone"];
 					    $message = $_POST["message"];
 
-					    $from = "From: contactformulier"; 
-					    $to = "s.vankuijk@fontys.nl"; // Suzanne haar mail. Veranderen?
+					    $from = "From: Contactformulier"; 
+					    $to = ""; // Veranderen in..? 
 					    $subject = "Contactformulier Het Buro";
 								
 					    $body = "Naam: $name\n Email: $email\n Tel: $telephone\n\n Bericht:\n $message";
