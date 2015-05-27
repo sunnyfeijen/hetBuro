@@ -72,12 +72,22 @@
     .searchbar{
         display: block;
         float: none;
-        margin-left: 5%;
     }
 
     .memberarea form{
         width: 100%;   
     }
+    
+    .gallery{
+        width: 98%;
+        padding: 5% 1%;
+    }
+    
+    .galleryitem
+	{
+		width: 46%;
+        margin: 3% 2%;
+	}
     
 	.contact {
 		width: 300px;
@@ -114,10 +124,6 @@
 }
 
 @media only screen and (min-width : 521px) and (max-width : 768px) {
-
-    .search{
-       background-color: red;   
-    }
     
 	.hamburger, .cross
 	{
@@ -127,6 +133,17 @@
     .memberarea form{
         width: 100%;   
     }
+    
+    .gallery{
+        width: 98%;
+        padding: 2% 1%;
+    }
+    
+    .galleryitem
+	{
+		width: 46%;
+        margin: 3% 2%;
+	}
 
 	.contact {
 		width: 400px;
@@ -164,7 +181,8 @@
 
 	.galleryitem
 	{
-		width: 42.5%;
+		width: 42%;
+        margin: 3% 4%;
 	}
 
 	.contact {
