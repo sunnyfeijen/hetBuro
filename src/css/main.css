@@ -200,6 +200,7 @@ nav ul li a
     outline: 0 none;
 }
 
+/*
 .button {
     padding: 0.3em 1em;
     text-decoration: none;
@@ -217,6 +218,7 @@ nav ul li a
     transition: 0.4s;
     cursor: pointer;
 }
+*/
 
 /* Member area
 ---------------------------------------------------------*/
@@ -229,6 +231,7 @@ nav ul li a
     position: relative;
 }
 
+/*
 .previewimg{
     max-height: 10%;
 }
@@ -240,6 +243,7 @@ nav ul li a
 #firstform label, #firstform input, #firstform select{
     margin-bottom: 2%;
 }
+*/
 
 .trianglewrapper{
     width: 90%;
@@ -441,15 +445,20 @@ nav ul li a
     float: left;
 }
 
+<<<<<<< Updated upstream
     .contact_formulier form {
         width: 450px;
+=======
+    .contact_formulier form, .memberarea form  {
+        width: 100%;
+>>>>>>> Stashed changes
     }
 
-    .contact_formulier label {
+    .contact_formulier label, .memberarea label {
         font-size: 0.875em;
     }
 
-    .contact_formulier input {
+    .contact_formulier input, .memberarea input {
         font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
         font-weight: 300;
         font-size: 0.875em;
@@ -467,7 +476,7 @@ nav ul li a
             outline: 0 none;
         }
 
-    .contact_formulier textarea {
+    .contact_formulier textarea, .memberarea textarea {
         font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
         font-weight: 300;
         padding: 10px 15px 10px 15px;
