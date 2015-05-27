@@ -6,6 +6,7 @@
 
     <body>
     	<section class='about_description'>
+            <div id='kop_blok'></div>
     		<h2>Over het Event</h2>
     		<h3>Tijdens Het eindevent van semester 4 presenteren alle groepen hun werk.</h3>
     		<p>
