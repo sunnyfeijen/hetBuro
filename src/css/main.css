@@ -95,6 +95,7 @@ nav ul li a
 .searchbar{
     display: inline-block;
     float: right;
+    margin-left: 0.5%;
 }
 
 .searchfield, .classbutton{
@@ -130,7 +131,7 @@ nav ul li a
     color: #a1a1a1;
 }
 
-.classbutton:hover {
+.classbutton:hover, .active {
     cursor: pointer;
     color: #fff;
     background-color: #2b2b2b;
@@ -199,6 +200,68 @@ nav ul li a
     outline: 0 none;
 }
 
+.button {
+    padding: 0.3em 1em;
+    text-decoration: none;
+    border-radius: 3em;
+    color: #2b2b2b;
+    font-size: 0.75em;
+    transition: 0.4s;
+    border: 1px solid #2b2b2b;
+    background-color: transparent;
+}
+
+.button:hover {
+    background-color: #2b2b2b;
+    color: #fff;
+    transition: 0.4s;
+    cursor: pointer;
+}
+
+
+/* Member area
+---------------------------------------------------------*/
+
+.memberarea{
+    background-color: rgba(0, 0, 0, 0.1);
+    width: 90%;
+    padding: 2% 5%;
+    display: block;
+    position: relative;
+}
+
+.previewimg{
+    max-height: 10%;
+}
+
+.memberarea form{
+    margin-top: 2%;
+}
+
+#firstform label, #firstform input, #firstform select{
+    margin-bottom: 2%;
+}
+
+.trianglewrapper{
+    width: 90%;
+    height: 15px;
+    position: absolute;
+    bottom: 0;
+    background-color: rgba(43, 43, 43, 0.2);
+}
+
+.triangle{
+    display: block;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 0 25px 15px 25px;
+    border-color: transparent transparent #E6007E transparent;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    margin-left: -25px;
+}
 
 
 /* Gallery
@@ -252,7 +315,7 @@ nav ul li a
     cursor: pointer;
 }
 
-.hearticon:hover path {
+.hearticon path:hover {
     fill: #fff;
     cursor: pointer;
     transition: 0.4s;
@@ -273,72 +336,35 @@ nav ul li a
 ---------------------------------------------------------*/
 
 .about_description{
-    width: 75%;
-  margin: auto;
-  margin-top: 3em;
-  position: relative;
-}
-#kop_blok{
-     width: 10px;
-  height: 27px;
-  background-color: #e4137e;
-  position: absolute;
-  margin-left: 10%;
+    width:720px;
+    margin: auto;
+    margin-top: 2em;
 }
 .about_description h2{
     font-weight: 800;
-  width: 80%;
-  margin-left: 12%;
-  text-align: left;
-  font-size: 1.5em;
-  text-transform: uppercase;
+    text-align: center;
+    font-size: 1.5em;
+    text-transform: uppercase;
 }
 .about_description h3{
-   font-weight: 800;
-  margin: 3em 0 1em 0;
-  width: 40%;
-  margin-left: -10%;
-  padding: 2.5% 60% 1% 20%;
-  text-align: left;
+      font-weight: 800;
+  margin: 2em 0 2em 0;
+  width: 80%;
+  padding: 2.5% 10% 2.5% 10%;
+  text-align: center;
   font-size: 1em;
-  color: black;
-  border-top: 1px solid rgba(42,42,42,0.2);
+  color: white;
+  border-top: 10px solid #2a2a2a;
+  background-color: rgba(228,19,126,1);
 }
-.about_description #tekst{
-      width: 80%;
-  overflow: hidden;
-  margin-left: 10%;
-}
+
 .about_description p{
     width:45%;
     margin-left:10%;
     float: left;
 }
-.about_description p b{
-    font-weight: 800;
-}
-#tekst p:nth-child(odd){
+.about_description p:nth-child(odd){
     margin-left: 0;
-}
-#logo_images{
-    margin-top: 3em;
-    width:80%;
-    margin-left: 10%;
-    overflow: hidden;
-}
-.company_logo{
-    width:20%;
-    height:200px;
-    overflow: hidden;
-    margin-left:5%;
-    float: left;
-}
-.company_logo:last-child{
-    margin-left: 0;
-}
-.company_img{
-    width:75%;
-    margin-left: 12.5%;
 }
 
 
@@ -348,14 +374,12 @@ nav ul li a
     width:720px;
     margin: auto;
     margin-top: 4em; 
-    margin-bottom: 4em;
     overflow: auto;
 }
 
 .contact_informatie {
-    width: 270px;
+    width: 40%;
     float: left;
-    margin-bottom: 10%;
 }
 
     .contact_informatie h1 {
@@ -370,12 +394,12 @@ nav ul li a
 /* Contactformulier
 ---------------------------------------------------------*/
 .contact_formulier {
-    width: 450px;
+    width: 60%;
     float: left;
 }
 
     .contact_formulier form {
-        width: 450px;
+        width: 100%;
     }
 
     .contact_formulier label {
@@ -385,15 +409,21 @@ nav ul li a
     .contact_formulier input {
         font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
         font-weight: 300;
+
         font-size: 0.875em;
+        width: 90%;
+        background:#fff;
+
         border: 1px solid #000;
-        height: 20px;
+        height:20px;
         margin-bottom:15px;
+        width: 80%;
+
         margin-top: 5px;
         padding: 10px 15px 10px 15px;
         background-color: white; 
         color: #000;
-        width: 418px;
+
     }
 
         .contact_formulier input[type="text"]:focus, input[type="email"]:focus, input[type="tel"]:focus, textarea:focus{   
@@ -405,20 +435,22 @@ nav ul li a
         font-weight: 300;
         padding: 10px 15px 10px 15px;
         font-size: 0.875em;
+        width: 90%;
+        background:#fff;
         border: 1px solid #000;
         height:20px;
         margin-bottom:15px;
+        width: 80%;
         height: 100px;
         margin-top: 5px;
         background-color: white; 
         resize: none;
-        width: 418px;
     }
 
 
     .contact_formulier input[type="submit"] {
         width:180px;
-        width: 50%;
+        width: 40%;
         height: 4em;
         color: #E6007E;
         border: 1px solid #E6007E;
@@ -446,6 +478,13 @@ nav ul li a
             color: #E6007E;
             margin-bottom: 5%;
         }
+
+
+
+
+
+
+
 
 
 
