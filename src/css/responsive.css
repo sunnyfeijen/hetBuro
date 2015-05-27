@@ -1,8 +1,10 @@
-@charset "utf-8";
-/* CSS Document */
 
+<<<<<<< HEAD
 
 @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+=======
+@media only screen and (max-width : 480px) {
+>>>>>>> origin/master
 	.contact {
 		width: 300px;
 	}
@@ -20,21 +22,40 @@
 		.contact_formulier input, .contact_formulier textarea {
 			width: 268px;
 		}
+<<<<<<< HEAD
 }
 
 @media only screen and (min-device-width : 481px) and (max-device-width : 768px) {
 	.contact {
 		width: 400px;
+=======
+
+			.secondalinea {
+				margin-top: 10px;
+			}
+
+		}
+
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+/* Styles */
+}
+
+
+
+@media only screen and (max-width: 768px) {
+
+	.galleryitem	{
+		width: 42.5%;
+>>>>>>> origin/master
 	}
 
-	.contact_informatie {
+	.contact {
 		width: 400px;
 	}
 
-	.contact_formulier {
-		width: 400px;
-	}
 
+<<<<<<< HEAD
 		.contact_formulier input, .contact_formulier textarea {
 			width: 368px;
 		}
@@ -44,25 +65,70 @@
 	.contact {
 		width: 600px;
 	}
+=======
+/* Smartphones (landscape) ----------- */
+@media only screen and (min-width : 321px) {
+/* Styles */
+}
 
-	.contact_informatie {
-		width: 200px;
-	}
 
-	.contact_formulier {
-		width: 400px;
-	}
 
+/* Smartphones (portrait) ----------- */
+@media only screen and (max-width : 320px) {
+/* Styles */
+			.secondalinea {
+				margin-top: 10px;
+			}
+
+}
+
+>>>>>>> origin/master
+
+
+/* iPads (portrait and landscape) ----------- */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+/* Styles */
+}
+
+<<<<<<< HEAD
 		.contact_formulier input, .contact_formulier textarea {
 			width: 368px;
 		}
 }
+=======
 
-/* Desktops and laptops ----------- */
-@media only screen  and (min-width : 1224px) {
+>>>>>>> origin/master
+
+/* iPads (landscape) ----------- */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape) {
 /* Styles */
 }
 
+
+
+/* iPads (portrait) ----------- */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) {
+/* Styles */
+}
+/**********
+iPad 3
+**********/
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape) and (-webkit-min-device-pixel-ratio : 2) {
+/* Styles */
+}
+
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) and (-webkit-min-device-pixel-ratio : 2) {
+/* Styles */
+}
+
+
+
+<<<<<<< HEAD
+
+=======
+/* Desktops and laptops ----------- */
+@media only screen  and (min-width : 1224px) {
+=======
 /* Large screens ----------- */
 @media only screen  and (min-width : 1824px) {
 /* Styles */
@@ -70,5 +136,8 @@
 
 
 
-
-
+/* Large screens ----------- */
+@media only screen  and (min-width : 1824px) {
+/* Styles */
+}
+>>>>>>> origin/master

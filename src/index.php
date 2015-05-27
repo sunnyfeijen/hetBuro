@@ -21,11 +21,71 @@
             </a>
             
             <form class="searchbar">
-                <input type="submit" name="m41" value="M41" class="classbutton">
-                <input type="submit" name="m42" value="M42" class="classbutton">
-                <input type="submit" name="m43" value="M43" class="classbutton">
                 <input type="text" name="search" class="searchfield" placeholder="search here">
             </form>
+            
+            <form class="searchbar">
+                <input type="submit" name="class" value="M41" class="classbutton">
+                <input type="submit" name="class" value="M42" class="classbutton active">
+                <input type="submit" name="class" value="M41T" class="classbutton">
+            </form>
+        </section>
+    
+        <section class="memberarea">
+            
+            <img src="upload/" alt="foto" class="previewimg">
+				<form action="" method="post" enctype="multipart/form-data">
+				<input type="submit" value="verwijder afbeelding" name="postdata" class="button">
+				</form>
+			
+					<form action="" method="post" enctype="multipart/form-data">
+					<label for="bestand">Bestand:</label><br>
+					<input type="file" name="bestand" id="bestand"><br>
+					<input type="submit" value="afbeelding uploaden" name="postdata" class="button">
+					</form>
+							<form action="" method="post">
+                            <label for="klas">Klas:</label><br>
+							<select  name="klas">
+							<option>M41</option>
+							<option>M42</option>
+							<option>M41T</option>
+							</select><br>
+							<input type="submit" value="verander klas" name="postdata" class="button">
+							</form>
+            
+								<form action="" method="post">
+                                <label for="url">Url:</label><br>
+								<input type="text" value="www." name="url"><br>
+								<input type="submit" value="verander url" name="postdata" class="button">
+								</form>
+								
+			<form action="" method="post">
+			<input type="submit" value="uitloggen" name="postdata" class="button">
+			</form>
+			
+			
+		<!-- Form voor de eerste keer data uploaden. Dit form is alleen zichtbaar na de eerste keer inloggen.-->	
+			
+			
+			<form action="" method="post" enctype="multipart/form-data" id="firstform">
+	<label for="bestand">Bestand:</label><br>
+					<input type="file" name="bestand" id="bestand"><br>
+    <label for="klas">Klas:</label><br>
+	<select name="klas" class="klas">
+			<option>M41</option>
+			<option>M42</option>
+			<option>M41T</option>
+		  </select><br>
+    <label for="url">Url:</label><br>
+	<input type="text" value="www." name="url" class="url">	<br>
+    <input type="submit" value="uploaden" name="postdata" class="button upload"><br>
+	 <input type="submit" value="uitloggen" name="postdata" class="button">
+	</form>
+            
+            <div class="trianglewrapper">
+                <div class="triangle"></div>
+            </div>
+        
         </section>
         
         <section class="gallery">
