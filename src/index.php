@@ -71,14 +71,14 @@
 	<label for="bestand">Bestand:</label><br>
 					<input type="file" name="bestand" id="bestand"><br>
     <label for="klas">Klas:</label><br>
-	<select  name="klas">
+	<select name="klas" class="klas">
 			<option>M41</option>
 			<option>M42</option>
 			<option>M41T</option>
 		  </select><br>
     <label for="url">Url:</label><br>
-	<input type="text" value="www." name="url">	<br>
-    <input type="submit" value="uploaden" name="postdata" class="button"><br>
+	<input type="text" value="www." name="url" class="url">	<br>
+    <input type="submit" value="uploaden" name="postdata" class="button upload"><br>
 	 <input type="submit" value="uitloggen" name="postdata" class="button">
 	</form>
             

@@ -1,15 +1,10 @@
 $(document).ready(function(){
     
-    $( ".triangle" ).click(function() {
-      $( ".memberarea" ).slideUp( "slow", function() {
-          
-      });
-    });
-    
-//    introJs().start();
-//    introJs().setOption("skipLabel", "Exit");
     
 //-----Shephard-----------------------------------
+
+
+    //  if first form is shown -->
     var tour;
 
     tour = new Shepherd.Tour({
@@ -20,8 +15,8 @@ $(document).ready(function(){
     
 
     tour.addStep('any-name', { 
-        text: 'upload your portfolio here.',
-        attachTo: '.uploadbutton right',
+        text: 'upload your screenshot here.',
+        attachTo: '#firstform #bestand right',
         buttons: [
             {
                 text: 'Next',
@@ -31,11 +26,33 @@ $(document).ready(function(){
     });
 
     tour.addStep('b-step', {
-        text: 'You can sort by class with these buttons',
-        attachTo: '.classbutton bottom',
+        text: 'Select you class over here',
+        attachTo: '#firstform .klas right',
         buttons: [
             {
-                text: 'End',
+                text: 'Next',
+                action: tour.next
+            }
+        ]
+    });
+    
+    tour.addStep('b-step', {
+        text: 'Type your portfolios url',
+        attachTo: '#firstform .url right',
+        buttons: [
+            {
+                text: 'Next',
+                action: tour.next
+            }
+        ]
+    });
+    
+    tour.addStep('b-step', {
+        text: 'Press upload and youre done!',
+        attachTo: '#firstform .upload right',
+        buttons: [
+            {
+                text: 'Got it!',
                 action: tour.next
             }
         ]
@@ -43,7 +60,13 @@ $(document).ready(function(){
 
     tour.start();
     
-//    document.getElementsByClassName("uploadbutton").focus();
 //-----Shephard-END-------------------------------
+    
+    $( ".triangle" ).click(function() {
+        // quit Shepherd
+        tour.complete();
+      $( ".memberarea" ).slideUp( "slow", function() {
+      });
+    });
     
 });
