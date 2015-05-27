@@ -326,20 +326,22 @@ nav ul li a
     margin-left: 10%;
     overflow: hidden;
 }
-.company_logo{
-    width:20%;
-    height:200px;
-    overflow: hidden;
-    margin-left:5%;
-    float: left;
+.company_img_square{
+    width:10%;
+    float:left;
+    margin-left: 5%;
+    margin-right: 10%;
 }
-.company_logo:last-child{
-    margin-left: 0;
+.company_img_square:first-child{
+    margin-left: 0%;
+    margin-right: 15%;
 }
 .company_img{
-    width:75%;
-    margin-left: 12.5%;
+    width:20%;
+    float:left;
+    margin-left: 5%;
 }
+
 
 
 /* Contact

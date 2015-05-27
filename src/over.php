@@ -27,18 +27,15 @@
 			</p>
             </div>
             <div id='logo_images'>
-                <div class='company_logo'>
-                <img src='img/logo_colours.png' class='company_img' />
-                </div>
-                <div class='company_logo'>
-                <img src='img/logo_digitas-lbi.jpg' class='company_img' />
-                </div>
-                <div class='company_logo'>
+                
+                <img src='img/logo_colours.png' class='company_img_square' />
+                
+                <img src='img/logo_digitas-lbi.jpg' class='company_img_square' />
+                
                 <img src='img/logo_freshheads.bmp' class='company_img' />
-                </div>
-                <div class='company_logo'>
+                
                 <img src='img/logo_fontys.png' class='company_img' />
-                </div>
+                
             </div>
     	</section>
     </body>
