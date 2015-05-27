@@ -1,11 +1,5 @@
 $(document).ready(function(){
     
-    $( ".triangle" ).click(function() {
-      $( ".memberarea" ).slideUp( "slow", function() {
-          
-      });
-    });
-    
 //    introJs().start();
 //    introJs().setOption("skipLabel", "Exit");
     
@@ -32,7 +26,29 @@ $(document).ready(function(){
 
     tour.addStep('b-step', {
         text: 'You can sort by class with these buttons',
-        attachTo: '.classbutton bottom',
+        attachTo: '#firstform .klas right',
+        buttons: [
+            {
+                text: 'End',
+                action: tour.next
+            }
+        ]
+    });
+    
+    tour.addStep('b-step', {
+        text: 'You can sort by class with these buttons',
+        attachTo: '#firstform .url right',
+        buttons: [
+            {
+                text: 'End',
+                action: tour.next
+            }
+        ]
+    });
+    
+    tour.addStep('b-step', {
+        text: 'You can sort by class with these buttons',
+        attachTo: '#firstform .button right',
         buttons: [
             {
                 text: 'End',
@@ -42,8 +58,12 @@ $(document).ready(function(){
     });
 
     tour.start();
-    
-//    document.getElementsByClassName("uploadbutton").focus();
 //-----Shephard-END-------------------------------
+    
+        $( ".triangle" ).click(function() {
+            tour.complete();
+          $( ".memberarea" ).slideUp( "slow", function() {
+          });
+        });
     
 });
