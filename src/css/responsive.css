@@ -1,98 +1,28 @@
 @charset "utf-8";
 /* CSS Document */
 
-<<<<<<< Updated upstream
 
 @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
 	.contact {
-		width: 250px;
+		width: 300px;
 	}
 
 	.contact_informatie {
-		width: 250px;
+		width: 300px;
 		float: left;
 	}
 
 	.contact_formulier {
-		width: 250px;
+		width: 300px;
 		float: left;
 	}
 
-		.contact_formulier input, .contact_formulier textarea, .contact_formulier form {
-			width: 218px;
+		.contact_formulier input, .contact_formulier textarea {
+			width: 268px;
 		}
-
-	.about_description {
-		width: 300px;
-	}
-
-		.about_description p {
-		    width: 100%;
-		    margin-left: 0;
-		    float: left;
-		}
-
-			.secondalinea {
-				margin-top: 10px;
-			}
-=======
-/* Smartphones (portrait and landscape) ----------- */
-@media only screen and (max-device-width : 480px) {
-/* Styles */
-
-/*	.hamburger
-	{
-	  background:none;
-	  position:absolute;
-	  top:0;
-	  right:0;
-	  line-height:45px;
-	  padding:0px 15px 0px 15px;
-	  color:#fff;
-	  border:0;
-	  font-size:1.4em;
-	  font-weight:bold;
-	  cursor:pointer;
-	  outline:none;
-	  z-index:10000000000000;
-	}
-
-	.cross
-	{
-	  background:none;
-	  position:absolute;
-	  top:0px;
-	  right:0;
-	  padding:0px 15px 0px 15px;
-	  color:#fff;
-	  border:0;
-	  font-size:3em;
-	  line-height:65px;
-	  font-weight:bold;
-	  cursor:pointer;
-	  outline:none;
-	  z-index:10000000000000;
-	}
-
-	.menu{z-index:1000000; font-weight:bold; font-size:0.8em; width:100%; background:#131313;  position:absolute; text-align:center;}
-	.menu ul {margin: 0; padding: 0; list-style-type: none; list-style-image: none;}
-	.menu li {display: block;   padding:15px 0 15px 0; border-bottom:#1d1f20 1px solid;}
-	.menu li:hover{display: block;    background:#181818; padding:15px 0 15px 0; border-bottom:#1d1f20 1px solid;}
-	.menu ul li a { text-decoration:none;  margin: 0px; color:#fff;}
-	.menu ul li a:hover {  color: #fff; text-decoration:none;}
-	.menu a{text-decoration:none; color:white;}
-	.menu a:hover{text-decoration:none; color:white;}
-
-	.glyphicon-home{
-	  color:white; 
-	  font-size:1.5em; 
-	  margin-top:5px; 
-	  margin:0 auto;
-	}*/
->>>>>>> Stashed changes
 }
 
-@media only screen and (min-device-width : 480px) and (max-device-width : 768px) {
+@media only screen and (min-device-width : 481px) and (max-device-width : 768px) {
 	.contact {
 		width: 400px;
 	}
@@ -105,26 +35,12 @@
 		width: 400px;
 	}
 
-		.contact_formulier input, .contact_formulier textarea, .contact_formulier form {
+		.contact_formulier input, .contact_formulier textarea {
 			width: 368px;
 		}
-
-	.about_description {
-		width: 450px;
-	}
-
-		.about_description p {
-		    width: 100%;
-		    margin-left: 0;
-		    float: left;
-		}
-
-			.secondalinea {
-				margin-top: 10px;
-			}
 }
 
-@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+@media only screen and (min-device-width : 769px) and (max-device-width : 1024px) {
 	.contact {
 		width: 600px;
 	}
@@ -137,13 +53,9 @@
 		width: 400px;
 	}
 
-		.contact_formulier input, .contact_formulier textarea, .contact_formulier form {
+		.contact_formulier input, .contact_formulier textarea {
 			width: 368px;
 		}
-
-	.about_description {
-		width: 600px;
-	}
 }
 
 /* Desktops and laptops ----------- */
@@ -160,14 +72,3 @@
 
 
 
-<<<<<<< Updated upstream
-=======
-/* Large screens ----------- */
-@media only screen  and (min-width : 1824px) {
-/* Styles */
-}
-
-
-
-
->>>>>>> Stashed changes
