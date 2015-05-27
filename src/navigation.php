@@ -2,11 +2,8 @@
     <h1>
         <a href="index.php" class="logo">het<br/> Buro</a>
     </h1>
-
-    <!-- <button class="hamburger">=</button>
-  	<button class="cross">&#735;</button> -->
     
-    <div class="menu">
+    <div>
     	<ul>
 	        <li><a href="index.php" <?php if ($thisPage=="index") 
 			echo " class=\"current\""; ?>>Portfolio's</a></li>
