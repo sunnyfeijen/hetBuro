@@ -21,9 +21,13 @@ p {
   background: #E6007E; /* WebKit/Blink Browsers */
 }
     
-    ::-moz-selection {
-      background: #E6007E; /* Gecko Browsers */
-    }
+::-moz-selection {
+  background: #E6007E; /* Gecko Browsers */
+}
+
+span{
+  font-size: 0.8em;
+}
 
 /* Navigatie
 ---------------------------------------------------------*/
@@ -199,34 +203,18 @@ nav ul li a
     outline: 0 none;
 }
 
-.button {
-    padding: 0.3em 1em;
-    text-decoration: none;
-    border-radius: 3em;
-    color: #2b2b2b;
-    font-size: 0.75em;
-    transition: 0.4s;
-    border: 1px solid #2b2b2b;
-    background-color: transparent;
-}
-
-.button:hover {
-    background-color: #2b2b2b;
-    color: #fff;
-    transition: 0.4s;
-    cursor: pointer;
-}
-
 
 /* Member area
 ---------------------------------------------------------*/
 
 .memberarea{
-    background-color: rgba(0, 0, 0, 0.1);
+/*    background-color: rgba(0, 0, 0, 0.1);*/
     width: 90%;
     padding: 2% 5%;
     display: block;
     position: relative;
+    border-top: 1px solid #000;
+    border-bottom: 1px solid #000;
 }
 
 .previewimg{
@@ -235,10 +223,46 @@ nav ul li a
 
 .memberarea form{
     margin-top: 2%;
+    width: 40%;
 }
 
-#firstform label, #firstform input, #firstform select{
+.memberarea form input[type="text"]{
     margin-bottom: 2%;
+    width: calc(100% - 32px);
+    border: 1px solid #000;
+    padding: 10px 15px;
+}
+
+.memberarea form input[type="file"]{
+    margin-bottom: 2%;
+    padding-top: 10px;
+}
+
+.memberarea form select{
+    margin-bottom: 2%;
+    width: 30%;
+    background-color: #fff;
+    border: 1px solid #000;
+}
+
+.button {
+    width: 30%;
+    height: 3em;
+    color: #E6007E;
+    border: 1px solid #E6007E;
+    background-color: white;
+    margin-bottom: 2%;
+}
+
+.button:hover {
+    background-color: #E6007E;
+    color: #fff;
+    transition: 0.4s;
+    cursor: pointer;
+}
+
+.help{
+    float: right;
 }
 
 .trianglewrapper{
@@ -246,7 +270,7 @@ nav ul li a
     height: 15px;
     position: absolute;
     bottom: 0;
-    background-color: rgba(43, 43, 43, 0.2);
+/*    background-color: rgba(43, 43, 43, 0.2);*/
 }
 
 .triangle{

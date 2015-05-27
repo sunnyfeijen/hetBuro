@@ -64,7 +64,7 @@
 			
 			
 			<form action="" method="post" enctype="multipart/form-data" id="firstform">
-	<label for="bestand">Bestand:</label><br>
+	<label for="bestand">Screenshot <span>(jpeg, max 1Mb)</span>:</label><br>
 					<input type="file" name="bestand" id="bestand"><br>
     <label for="klas">Klas:</label><br>
 	<select name="klas" class="klas">
@@ -76,6 +76,7 @@
 	<input type="text" value="www." name="url" class="url">	<br>
     <input type="submit" value="uploaden" name="postdata" class="button"><br>
 	 <input type="submit" value="uitloggen" name="postdata" class="button">
+     <input type="button" value="help" name="postdata" class="button help">
 	</form>
             
             <div class="trianglewrapper">

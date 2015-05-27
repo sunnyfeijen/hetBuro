@@ -14,50 +14,54 @@ $(document).ready(function(){
     
 
     tour.addStep('any-name', { 
-        text: 'upload your portfolio here.',
+        text: 'Upload hier een screenshot van je portfolio.<br><br> Jpeg en Max 1Mb',
         attachTo: '#firstform #bestand right',
         buttons: [
             {
-                text: 'Next',
+                text: 'Ok',
                 action: tour.next
             }
         ]
     });
 
     tour.addStep('b-step', {
-        text: 'You can sort by class with these buttons',
+        text: 'Kies hier je klas',
         attachTo: '#firstform .klas right',
         buttons: [
             {
-                text: 'End',
+                text: 'Ok',
                 action: tour.next
             }
         ]
     });
     
     tour.addStep('b-step', {
-        text: 'You can sort by class with these buttons',
+        text: 'Typ de url van je portfolio',
         attachTo: '#firstform .url right',
         buttons: [
             {
-                text: 'End',
+                text: 'Ok',
                 action: tour.next
             }
         ]
     });
     
     tour.addStep('b-step', {
-        text: 'You can sort by class with these buttons',
+        text: 'Klik op upload en je bent klaar!',
         attachTo: '#firstform .button right',
         buttons: [
             {
-                text: 'End',
+                text: 'Ik snap het',
                 action: tour.next
             }
         ]
     });
 
-    tour.start();
+    
+    
+    $( ".help" ).click(function() {
+        tour.start();
+    });
 //-----Shephard-END-------------------------------
     
         $( ".triangle" ).click(function() {
