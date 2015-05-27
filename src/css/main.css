@@ -29,6 +29,13 @@ span{
   font-size: 0.8em;
 }
 
+/* Melding
+---------------------------------------------------------*/
+.melding{
+    margin-left: 5%;
+}
+
+
 /* Navigatie
 ---------------------------------------------------------*/
 nav
@@ -85,6 +92,10 @@ nav ul li a
     border-bottom: 4px solid #E6007E;
 }
 
+.hamburger{
+    display: none;
+}
+
 /* Search & Upload
 ---------------------------------------------------------*/
 .search
@@ -98,6 +109,8 @@ nav ul li a
 .searchbar{
     display: inline-block;
     float: right;
+    height: 3.175em;
+    width: 360px;
 }
 
 .searchfield, .classbutton{
@@ -222,7 +235,7 @@ nav ul li a
 
 .memberarea form{
     margin-top: 2%;
-    width: 40%;
+    width: 50%;
 }
 
 .memberarea form input[type="text"]{
@@ -245,7 +258,7 @@ nav ul li a
 }
 
 .button {
-    width: 30%;
+    width: 13em;
     height: 3em;
     color: #E6007E;
     border: 1px solid #E6007E;

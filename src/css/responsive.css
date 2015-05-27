@@ -2,20 +2,24 @@
 /* CSS Document */
 
 
-@media only screen and (max-width : 480px) {
+@media only screen and (max-width : 520px) {
 
 	nav ul
 	{
 	    float: left;
 	    margin-right: 5%;
 	}
-
+    
+    .menumain{
+        display: none;
+    }
 
 	.hamburger{
 	  background:none;
 	  position:absolute;
 	  top:0;
 	  right:0;
+      display: block;
 	  line-height:2.5em;
 	  padding:0px 15px 0px 15px;
 	  color:#fff;
@@ -60,7 +64,21 @@
 	.current {
 	    border-bottom: none;
 	}
+    
+    .search{
+        height: 6.35em;
+    }
+    
+    .searchbar{
+        display: block;
+        float: none;
+        margin-left: 5%;
+    }
 
+    .memberarea form{
+        width: 100%;   
+    }
+    
 	.contact {
 		width: 300px;
 	}
@@ -75,9 +93,9 @@
 		float: left;
 	}
 
-		.contact_formulier input, .contact_formulier textarea {
-			width: 268px;
-		}
+    .contact_formulier input, .contact_formulier textarea {
+        width: 268px;
+    }
 
 
 	.about_description {
@@ -95,12 +113,20 @@
 	}
 }
 
-@media only screen and (min-width : 480px) and (max-width : 768px) {
+@media only screen and (min-width : 521px) and (max-width : 768px) {
 
+    .search{
+       background-color: red;   
+    }
+    
 	.hamburger, .cross
 	{
 		display: none ;
 	}
+    
+    .memberarea form{
+        width: 100%;   
+    }
 
 	.contact {
 		width: 400px;

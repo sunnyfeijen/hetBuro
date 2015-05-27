@@ -3,7 +3,7 @@
         <a href="index.php" class="logo">het<br/> Buro</a>
     </h1>
 
-    <ul>
+    <ul class="menumain">
 	        <li><a href="index.php" <?php if ($thisPage=="index") 
 			echo " class=\"current\""; ?>>Portfolio's</a></li>
 	        <li><a href="over.php" <?php if ($thisPage=="over") 
