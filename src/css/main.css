@@ -199,6 +199,70 @@ nav ul li a
     outline: 0 none;
 }
 
+.button {
+    padding: 0.3em 1em;
+    text-decoration: none;
+    border-radius: 3em;
+    color: #2b2b2b;
+    font-size: 0.75em;
+    transition: 0.4s;
+    border: 1px solid #2b2b2b;
+    background-color: transparent;
+}
+
+.button:hover {
+    background-color: #2b2b2b;
+    color: #fff;
+    transition: 0.4s;
+    cursor: pointer;
+}
+
+
+/* Member area
+---------------------------------------------------------*/
+
+.memberarea{
+    background-color: rgba(0, 0, 0, 0.1);
+    width: 90%;
+    padding: 2% 5%;
+    display: block;
+    position: relative;
+}
+
+.previewimg{
+    max-height: 10%;
+}
+
+.memberarea form{
+    margin-top: 2%;
+}
+
+#firstform label, #firstform input, #firstform select{
+    margin-bottom: 2%;
+}
+
+.trianglewrapper{
+    width: 90%;
+    height: 15px;
+    position: absolute;
+    bottom: 0;
+    background-color: rgba(43, 43, 43, 0.2);
+}
+
+.triangle{
+    display: block;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 0 25px 15px 25px;
+    border-color: transparent transparent #E6007E transparent;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    margin-left: -25px;
+}
+
+
 
 
 /* Gallery
