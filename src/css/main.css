@@ -1,10 +1,5 @@
 /* Body
 ---------------------------------------------------------*/
-html
-{
-    width: 100%;
-}
-
 body 
 {
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
@@ -135,7 +130,7 @@ nav ul li a
     color: #a1a1a1;
 }
 
-.classbutton:hover, .active {
+.classbutton:hover {
     cursor: pointer;
     color: #fff;
     background-color: #2b2b2b;
@@ -205,60 +200,16 @@ nav ul li a
 }
 
 
-/* Member area
----------------------------------------------------------*/
-
-.memberarea{
-    
-    background-color: red;
-    width: 100%;
-    height: 100px;
-    display: block;
-    position: relative;
-}
-
-.trianglewrapper{
-    width: 100%;
-    height: 15px;
-    position: absolute;
-    bottom: 0;
-    background-color: rgba(43, 43, 43, 0.2);
-}
-
-.triangle{
-    display: block;
-    width: 0;
-    height: 0;
-    border-style: solid;
-    border-width: 0 25px 15px 25px;
-    border-color: transparent transparent #E6007E transparent;
-    position: absolute;
-    bottom: 0;
-    left: 50%;
-    margin-left: -25px;
-}
-
 
 /* Gallery
 ---------------------------------------------------------*/
 .galleryitem
 {
-    width: 100%;
-	height: 15em;
+    width: 26.66%;
 /*  background-color: #2b2b2b;*/
-   margin-left:0;
-    margin-top:0;
-	overflow:hidden;
-}
-
-.galleryitemwrap
-{
-height: 17em;
-width: 26.66%;
- margin-top: 3em;
+    margin-top: 3em;
     margin-left: 5%;
-	float: left;
-	min-width:385px;
+    float: left;
 }
 
 .description{
@@ -282,17 +233,7 @@ width: 26.66%;
 
 .portfoliothumb
 {
-   position: relative;
-  left: 0%;
-  @include translateY(-0%);
-  max-width: 100%;
- 
-  @media (min-width: 800px) {
-    left: 0; // set the left back to 0
-    max-height: none; // remove the max-height
-    max-width: 100%;
-    @include translateY(-50%);
-  }
+    width: 100%;
 }
 
 .hearticon {
@@ -311,7 +252,7 @@ width: 26.66%;
     cursor: pointer;
 }
 
-.hearticon path:hover {
+.hearticon:hover path {
     fill: #fff;
     cursor: pointer;
     transition: 0.4s;
@@ -333,14 +274,8 @@ width: 26.66%;
 
 .about_description{
     width:720px;
-<<<<<<< HEAD
     margin: auto;
-    margin-top: 2em;
-=======
-    margin: 0 auto;
     margin-top: 4em;
-    margin-bottom: 4em;
->>>>>>> origin/master
 }
 .about_description h2{
     font-weight: 800;
@@ -376,12 +311,14 @@ width: 26.66%;
     width:720px;
     margin: auto;
     margin-top: 4em; 
+    margin-bottom: 4em;
     overflow: auto;
 }
 
 .contact_informatie {
-    width: 40%;
+    width: 270px;
     float: left;
+    margin-bottom: 10%;
 }
 
     .contact_informatie h1 {
@@ -396,12 +333,12 @@ width: 26.66%;
 /* Contactformulier
 ---------------------------------------------------------*/
 .contact_formulier {
-    width: 60%;
+    width: 450px;
     float: left;
 }
 
     .contact_formulier form {
-        width: 100%;
+        width: 450px;
     }
 
     .contact_formulier label {
@@ -411,21 +348,15 @@ width: 26.66%;
     .contact_formulier input {
         font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
         font-weight: 300;
-
         font-size: 0.875em;
-        width: 90%;
-        background:#fff;
-
         border: 1px solid #000;
-        height:20px;
+        height: 20px;
         margin-bottom:15px;
-        width: 80%;
-
         margin-top: 5px;
         padding: 10px 15px 10px 15px;
         background-color: white; 
         color: #000;
-
+        width: 418px;
     }
 
         .contact_formulier input[type="text"]:focus, input[type="email"]:focus, input[type="tel"]:focus, textarea:focus{   
@@ -437,22 +368,20 @@ width: 26.66%;
         font-weight: 300;
         padding: 10px 15px 10px 15px;
         font-size: 0.875em;
-        width: 90%;
-        background:#fff;
         border: 1px solid #000;
         height:20px;
         margin-bottom:15px;
-        width: 80%;
         height: 100px;
         margin-top: 5px;
         background-color: white; 
         resize: none;
+        width: 418px;
     }
 
 
     .contact_formulier input[type="submit"] {
         width:180px;
-        width: 40%;
+        width: 50%;
         height: 4em;
         color: #E6007E;
         border: 1px solid #E6007E;
@@ -480,13 +409,6 @@ width: 26.66%;
             color: #E6007E;
             margin-bottom: 5%;
         }
-
-
-
-
-
-
-
 
 
 

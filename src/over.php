@@ -18,7 +18,7 @@
 				Elk ‘buro’ gaat een cross-media campagne met online focus ontwerpen en realiseren voor de opdrachtgever. <br/>
 				
 			</p>
-			<p class="secondalinea">
+			<p>
 				In dit semester staan <b>scrum</b>, <b>strategie en concept</b>, <b>campaigning</b>, 
 				<b>user centered design</b>, <b>user experience</b>, <b>JavaScript frameworks</b> en <b>SEO</b>.
 			</br></br>
