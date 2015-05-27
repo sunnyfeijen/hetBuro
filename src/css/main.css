@@ -131,7 +131,7 @@ nav ul li a
     color: #a1a1a1;
 }
 
-.classbutton:hover, .active {
+.classbutton:hover {
     cursor: pointer;
     color: #fff;
     background-color: #2b2b2b;
@@ -218,7 +218,6 @@ nav ul li a
     cursor: pointer;
 }
 
-
 /* Member area
 ---------------------------------------------------------*/
 
@@ -262,7 +261,6 @@ nav ul li a
     left: 50%;
     margin-left: -25px;
 }
-
 
 /* Gallery
 ---------------------------------------------------------*/
@@ -315,7 +313,7 @@ nav ul li a
     cursor: pointer;
 }
 
-.hearticon path:hover {
+.hearticon:hover path {
     fill: #fff;
     cursor: pointer;
     transition: 0.4s;
