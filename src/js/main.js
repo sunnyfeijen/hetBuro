@@ -69,5 +69,7 @@ $(document).ready(function(){
           $( ".memberarea" ).slideUp( "slow", function() {
           });
         });
+
+        
     
 });
