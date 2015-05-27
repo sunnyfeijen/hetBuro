@@ -1,0 +1,121 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+/* Styles */
+
+	nav
+	{
+		display: none;
+	}
+
+	.hamburger
+	{
+	  background:none;
+	  position:absolute;
+	  top:0;
+	  right:0;
+	  line-height:45px;
+	  padding:0px 15px 0px 15px;
+	  color:#fff;
+	  border:0;
+	  font-size:1.4em;
+	  font-weight:bold;
+	  cursor:pointer;
+	  outline:none;
+	  z-index:10000000000000;
+	}
+
+	nav.cross
+	{
+	  background:none;
+	  position:absolute;
+	  top:0px;
+	  right:0;
+	  padding:0px 15px 0px 15px;
+	  color:#fff;
+	  border:0;
+	  font-size:3em;
+	  line-height:65px;
+	  font-weight:bold;
+	  cursor:pointer;
+	  outline:none;
+	  z-index:10000000000000;
+	}
+
+	nav{z-index:1000000; font-weight:bold; font-size:0.8em; width:100%; background:#131313;  position:absolute; text-align:center;}
+	nav ul {margin: 0; padding: 0; list-style-type: none; list-style-image: none;}
+	nav li {display: block;   padding:15px 0 15px 0; border-bottom:#1d1f20 1px solid;}
+	nav li:hover{display: block;    background:#181818; padding:15px 0 15px 0; border-bottom:#1d1f20 1px solid;}
+	nav ul li a { text-decoration:none;  margin: 0px; color:#fff;}
+	nav ul li a:hover {  color: #fff; text-decoration:none;}
+	nav a{text-decoration:none; color:white;}
+	nav a:hover{text-decoration:none; color:white;}
+
+	.glyphicon-home{
+	  color:white; 
+	  font-size:1.5em; 
+	  margin-top:5px; 
+	  margin:0 auto;
+	}
+}
+
+
+
+/* Smartphones (landscape) ----------- */
+@media only screen and (min-width : 321px) {
+/* Styles */
+}
+
+
+
+/* Smartphones (portrait) ----------- */
+@media only screen and (max-width : 320px) {
+/* Styles */
+}
+
+
+
+/* iPads (portrait and landscape) ----------- */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+/* Styles */
+}
+
+
+
+/* iPads (landscape) ----------- */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape) {
+/* Styles */
+}
+
+
+
+/* iPads (portrait) ----------- */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) {
+/* Styles */
+}
+/**********
+iPad 3
+**********/
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape) and (-webkit-min-device-pixel-ratio : 2) {
+/* Styles */
+}
+
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) and (-webkit-min-device-pixel-ratio : 2) {
+/* Styles */
+}
+
+
+
+/* Desktops and laptops ----------- */
+@media only screen  and (min-width : 1224px) {
+/* Styles */
+}
+
+
+
+/* Large screens ----------- */
+@media only screen  and (min-width : 1824px) {
+/* Styles */
+}

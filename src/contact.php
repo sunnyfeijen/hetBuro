@@ -14,29 +14,33 @@
 
 	    	<section class="contact_formulier">
 		    	<?php 
-					if (isset($_POST["submit"])) {
+					 if (isset($_POST["submit"])) {
 						$name = $_POST["name"];
 					    $email = $_POST["email"];
 					    $telephone = $_POST["telephone"];
 					    $message = $_POST["message"];
 
+<<<<<<< HEAD
 					    $from = "From: Contactformulier"; 
 					    $to = ""; // Veranderen in..? 
+=======
+					    $from = "From: contactformulier"; 
+					    $to = ""; // s.vankuijk@fontys.nl
+>>>>>>> origin/master
 					    $subject = "Contactformulier Het Buro";
 								
 					    $body = "Naam: $name\n Email: $email\n Tel: $telephone\n\n Bericht:\n $message";
 					    // mail ($to, $subject, $body, $from);
 
-					 	
 					    if (mail ($to, $subject, $body, $from)) { 
 					        echo "<p class='mail_check'>Je bericht is verzonden!</p>";
 					    } else { 
 					        echo "<p class='mail_check'>Foutje! Probeer het opnieuw!</p>"; 
 					    }
-						
 					}
 				?>
 
+				<!-- <?php //phpinfo() ?>-->
 		    	<form action="" method="POST">
 			        <label for="name">Naam<span class="required"> *</span></label><br/>
 			        <input type="text" name="name" value="" placeholder="John Doe" required autofocus="autofocus" /><br/>
@@ -50,7 +54,7 @@
 			        <label for="message">Bericht<span class="required"> *</span></label><br/>
 			        <textarea id="message" name="message" required></textarea><br/>
 			         
-			        <input type="submit" name="submit" value="Verzenden" id="submit-button" /><br/>
+			        <input type="submit" name="submit" value="Verzenden" /><br/>
 			        <p id="req-field-desc"><span class="required">* </span>Verplicht</p><br/>
 		    	</form>
 	    	</section>

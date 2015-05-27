@@ -58,11 +58,27 @@ ini_set('display_errors', '1');
             </a>
             
             <form class="searchbar">
+<<<<<<< HEAD
                 <input type="submit" name="klas" value="M41" class="classbutton">
                 <input type="submit" name="klas" value="M41T" class="classbutton">
                 <input type="submit" name="klas" value="M42" class="classbutton">
                 <input type="text" name="naam" class="searchfield" placeholder="search here">
+=======
+                <input type="submit" name="class" value="M41" class="classbutton">
+                <input type="submit" name="class" value="M42" class="classbutton active">
+                <input type="submit" name="class" value="M43" class="classbutton">
+                <input type="text" name="search" class="searchfield" placeholder="search here">
+>>>>>>> origin/master
             </form>
+        </section>
+    
+        <section class="memberarea">
+            
+            <div class="trianglewrapper">
+                <div class="triangle">
+                </div>
+            </div>
+        
         </section>
         
         <section class="memberarea">
