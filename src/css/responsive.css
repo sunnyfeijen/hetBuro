@@ -125,7 +125,9 @@
 	}
 	.about_description h3 {
 		width: 80%;
-		padding: 5% 0 1% 20%;
+		padding: 5% 0 1% 0%;
+		margin:2.5em 0em 1em 0;
+		margin-left:10%;
 	}
 
 	.about_description p {
