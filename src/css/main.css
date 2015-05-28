@@ -415,7 +415,6 @@ width: 75%;
 
 .about_description img 
 {
-    width: 100%;
     -webkit-user-drag: none; /* Prevents dragging of images/divs etc */
     user-drag: none;
 }
