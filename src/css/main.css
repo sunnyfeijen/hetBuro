@@ -399,10 +399,17 @@ min-width:385px;
 ---------------------------------------------------------*/
 
 .about_description{
-    width: 75%;
+width: 75%;
   margin: auto;
   margin-top: 3em;
   position: relative;
+}
+
+.about_description img 
+{
+    width: 100%;
+    -webkit-user-drag: none; /* Prevents dragging of images/divs etc */
+    user-drag: none;
 }
 #kop_blok{
      width: 10px;
