@@ -418,17 +418,21 @@ width: 75%;
     -webkit-user-drag: none; /* Prevents dragging of images/divs etc */
     user-drag: none;
 }
+#about_kop{
+    overflow: hidden;
+    margin-left: 10%;
+}
 #kop_blok{
-     width: 10px;
+  width: 10px;
   height: 27px;
   background-color: #e4137e;
   position: absolute;
-  margin-left: 10%;
 }
 .about_description h2{
     font-weight: 800;
   width: 80%;
-  margin-left: 12%;
+  float: left;
+  margin-left: 2%;
   text-align: left;
   font-size: 1.5em;
   text-transform: uppercase;

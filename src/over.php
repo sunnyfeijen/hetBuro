@@ -6,7 +6,7 @@
 
     <body>
     	<section class='about_description'>
-    		<div id='kop_blok'></div><h2>Over het Buro</h2>
+    		<div id='about_kop'><div id='kop_blok'></div><h2>Over het Buro</h2></div>
     		<h3>Tijdens dit semester gaan studenten in projectgroepen van 4 tot 6 personen als een ‘buro’ aan de slag voor een echte opdrachtgever.</h3>
     		<div id='tekst'>
                 <p>
