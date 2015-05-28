@@ -134,6 +134,11 @@
 		width: 100%;
 		margin-left: 0;
 	}
+	#poster{
+    width:80%;
+    margin-top: -1em;
+    margin-left: 10%;
+}
 }
 
 @media only screen and (min-width : 546px) and (max-width : 768px) {

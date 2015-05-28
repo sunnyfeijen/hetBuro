@@ -6,7 +6,7 @@
 
     <body>
     	<section class='about_description'>
-            <img src="img/poster.jpg">
+            <img src="img/poster.jpg" id='poster'>
     	</section>
     </body>
 </html>
