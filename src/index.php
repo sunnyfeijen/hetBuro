@@ -10,6 +10,7 @@
 
             
             
+<!--
             <form class="searchbar">
                 <a href="#">            
                 <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
@@ -25,6 +26,27 @@
                 <input type="submit" name="m43" value="M43" class="classbutton">
                 <input type="text" name="search" class="searchfield" placeholder="search here">
             </form>
+-->
+            
+        <form class="searchbar">
+			<a href="#">
+
+                <!--                <img class="searchbutton" src="img/magnifying-glass32.png">-->             
+                <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                	 viewBox="0 0 50 50" enable-background="new 0 0 50 50" xml:space="preserve" class="searchbutton">
+
+                	<circle stroke-miterlimit="10" cx="20.4" cy="19.8" r="16.3"/>
+                	<line stroke-miterlimit="10" x1="31.3" y1="31.9" x2="45.9" y2="46.5"/>
+
+                </svg>
+            </a>			
+                <input type="text" name="naam" class="searchfield" placeholder="search here">
+			</form>
+            <form class="buttonbar">
+                <input type="submit" name="klas" value="M41" class="classbutton">
+                <input type="submit" name="klas" value="M41T" class="classbutton">
+                <input type="submit" name="klas" value="M42" class="classbutton">
+			</form>
                 
         </section>
         <section class="memberarea">
