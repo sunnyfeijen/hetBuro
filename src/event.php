@@ -27,11 +27,9 @@
 
     <body>
     	<section class='about_description'>
-            <img src="img/poster.jpg" id='poster'>
-
-            <section id="map-canvas">
-
-            </section>
+            <img src="img/postertop.jpg" id='poster'>
+            <section id="map-canvas"></section>
+            <img src="img/posterbottom.jpg" id='poster'>
     	</section>
         
     </body>
