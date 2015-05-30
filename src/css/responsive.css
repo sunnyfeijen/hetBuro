@@ -2,7 +2,142 @@
 /* CSS Document */
 
 
-@media only screen and (max-width : 545px) {
+@media only screen and (max-width : 370px) {
+    
+    nav ul
+	{
+	    float: left;
+	    margin-right: 5%;
+	}
+    
+    .menumain{
+        display: none;
+    }
+
+	.hamburger{
+	  background:none;
+	  position:absolute;
+	  top:0;
+	  right:0;
+      display: block;
+	  line-height:2.5em;
+	  padding:0px 15px 0px 15px;
+	  color:#fff;
+	  border:0;
+	  font-size:1.4em;
+	  font-weight:bold;
+	  cursor:pointer;
+	  outline:none;
+	  z-index:10000000000000;
+	}
+	.cross{
+	  background:none;
+	  position:absolute;
+	  top:0px;
+	  right:0;
+	  padding:0px 15px 0px 15px;
+	  color:#fff;
+	  border:0;
+	  font-size:3em;
+	  line-height:65px;
+	  font-weight:bold;
+	  cursor:pointer;
+	  outline:none;
+	  z-index:10000000000000;
+	}
+	.menu{z-index:1000000; font-weight:bold; font-size:0.8em; width:100%; background:#2b2b2b;  position:absolute; text-align:left;}
+	.menu ul {margin-left:5%; margin-top: 0px; padding: 0; list-style-type: none; list-style-image: none;}
+	.menu li {display: block;   padding:15px 0 15px 0; border-bottom:#fff 1px solid;}
+	.menu li:hover{display: block;    background:#181818; padding:15px 0 15px 0; border-bottom:#1d1f20 1px solid;}
+	.menu ul li a { text-decoration:none;  margin: 0px; color:#fff;}
+	.menu ul li a:hover {  color: #fff; text-decoration:none;}
+	.menu a{text-decoration:none; color:white;}
+	.menu a:hover{text-decoration:none; color:white;}
+
+	.glyphicon-home{
+	  color:white; 
+	  font-size:1.5em; 
+	  margin-top:5px; 
+	  margin:0 auto;
+	}
+
+	.current {
+	    border-bottom: none;
+	}
+    
+    .search{
+        height: 9.525em;
+    }
+    
+    .searchbar{
+        width: 70%;
+        float: none;
+    }
+    
+    .buttonbar{
+        width: 100%;   
+    }
+    
+    .classbutton{
+        width: auto;
+        padding: 0.3em 1em;
+    }
+    
+    #firstform{
+        overflow: hidden;
+        margin-bottom: 20%;
+    }
+    
+    .memberarea form{
+        width: 100%;   
+    }
+    
+    .gallery{
+        width: 98%;
+        padding: 5% 1%;
+    }
+    
+    .galleryitem
+	{
+		width: 96%;
+        margin: 3% 2%;
+	}
+    
+    .contact {
+		width: 300px;
+	}
+
+	.contact_informatie {
+		width: 300px;
+		float: left;
+	}
+
+	.contact_formulier {
+		width: 300px;
+		float: left;
+	}
+
+    .contact_formulier input, .contact_formulier textarea {
+        width: 268px;
+    }
+
+
+	.about_description {
+		width: 100%;
+	}
+
+	.about_description h3 {
+		width: 80%;
+		padding: 5% 0 1% 20%;
+	}
+
+	.about_description p {
+		width: 100%;
+		margin-left: 0;
+	}
+}
+
+@media only screen and (min-width : 371px) and (max-width : 545px) {
 
 	nav ul
 	{
@@ -76,11 +211,18 @@
     .searchbar{
         display: inline-block;
         float: none;
+        width: 55%;
     }
     
     .buttonbar{
         display: inline-block;
         float: left;
+        width: 40%;
+    }
+    
+    .classbutton{
+        width: 30%;
+        padding: 0.3em 0.5em;
     }
 
     .memberarea form{
@@ -94,7 +236,7 @@
     
     .galleryitem
 	{
-		width: 46%;
+		width: 96%;
         margin: 3% 2%;
 	}
     
