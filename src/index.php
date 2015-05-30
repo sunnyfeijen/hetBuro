@@ -49,7 +49,7 @@
 			</form>
                 
         </section>
-        <section class="memberarea">
+        <section class="memberarea" style="display:none">
             
             <img src="upload/" alt="foto" class="previewimg">
 				<form action="" method="post" enctype="multipart/form-data">
